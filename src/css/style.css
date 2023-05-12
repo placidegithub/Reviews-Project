@@ -3,6 +3,23 @@
 }
 
 img {
-    max-width: 100%;
+    max-width: 12rem;
     object-fit: cover;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    border: .7rem solid rgb(0, 129, 241);
+
 }
+
+button {
+    padding: .6rem 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: rgb(94, 177, 249);
+    border-color: rgba(2, 38, 70, 0.75);
+    outline-color: rgba(0, 44, 82, 0.603);
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+/* 1rem = 16px */
